@@ -15,7 +15,7 @@ This project demonstrates the exact method that a quantum computer can use to ov
 The simulation is based on a Hamiltonian, which is just a formula that describes all the forces acting on the qubits.
 
 <p align="center">
-<img src="https://latex.codecogs.com/svg.image?H&space;=&space;-J&space;\sum_{i}&space;Z_i&space;Z_{i&plus;1}&space;-&space;h&space;\sum_{i}&space;X_i" title="Ising Model Hamiltonian" />
+<img src="https://latex.codecogs.com/svg.image?H&space;=&space;-J&space;\sum_{i}&space;Z_i&space;Z_{i&plus;1}&space;-&space;h&space;\sum_{i}&space;X_i;X_i&bg=white" title="Ising Model Hamiltonian" />
 </p>
  
 There are two main parts to this formula:
@@ -57,3 +57,4 @@ This will generate a file named spin_chain_dynamics.gif in your project folder.
 
 📄 License
 This project is under the MIT License.
+
