@@ -1,0 +1,4 @@
+qiskit-terra
+numpy
+matplotlib
+pillow
