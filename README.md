@@ -14,17 +14,19 @@ This project demonstrates the exact method that a quantum computer can use to ov
 🔬 How it Works
 The simulation is based on a Hamiltonian, which is just a formula that describes all the forces acting on the qubits.
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?H&space;=&space;-J&space;\sum_{i}&space;Z_i&space;Z_{i&plus;1}&space;-&space;h&space;\sum_{i}&space;X_i&bg=white" title="Ising Model Hamiltonian" />
-</p>
+<div align="center">
+
+$$
+H = -J \sum_{i} Z_i Z_{i+1} - h \sum_{i} X_i
+$$
+
+</div>
  
 There are two main parts to this formula:
 
-Interaction Term (−J
-sumZ_iZ_i+1): This part makes each qubit try to align with its neighbors. It creates order.
+Interaction Term ($-J \sum_{i} Z_i Z_{i+1}$): This part makes each qubit try to align with its neighbors. It creates order.
 
-Field Term (−h
-sumX_i): This part represents an external force that is constantly trying to flip the qubits. It creates quantum fluctuations.
+Field Term ($-h \sum_{i} X_i$): This part represents an external force that is constantly trying to flip the qubits. It creates quantum fluctuations.
 
 The simulation shows what happens when these two competing forces act on the qubits at the same time. To do this, we use the Trotter-Suzuki approximation, which lets us simulate the system by breaking down time into small steps.
 
@@ -57,5 +59,6 @@ This will generate a file named spin_chain_dynamics.gif in your project folder.
 
 📄 License
 This project is under the MIT License.
+
 
 
