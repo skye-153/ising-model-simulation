@@ -57,8 +57,9 @@ python run_simulation.py
 
 This will generate a file named spin_chain_dynamics.gif in your project folder.
 
-📄 License
+# 📄 License
 This project is under the MIT License.
+
 
 
 
